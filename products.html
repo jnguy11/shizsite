@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WORLDWIDE - Products</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="benvenoCF-font" href="BonvenoCF-Light.otf">
+    <link rel="Vollkorn-Regular.ttf" href="Vollkorn-Regular.ttf">
+    <link rel="Vollkorn-Italic.ttf" href="Vollkorn-Italic.ttf">
+    <script src="https://kit.fontawesome.com/5cac1d47f7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="header-container">
+        <div class="header-content">
+            <img class ="worldwide-logo cursor" onclick="location.href='./main.html'" src="./images/logocrop.png" alt="worldwide">
+        </div>
+    </header>
+    <nav class="nav-bar">
+        <button class="nav-item cursor" onclick="location.href='./main.html'">Home</button>
+        <button class="nav-item nav-item-current cursor" onclick="location.href='./products.html'">Products</button>
+        <button class="nav-item cursor" onclick="location.href='./aboutus.html'">About Us</button>
+        <button class="nav-item cursor" onclick="location.href='./cart.html'"><i class="fas fa-shopping-cart"></i> Cart</button>
+    </nav>
+    <main class="products-title">
+        <div class="products-title-container">
+            <h1 class="products-title-head"> OUR PRODUCTS</h1>
+            <div class="products-nav">
+                <h4 class="products-nav-item non-current" onclick="location.href='./main.html'">HOME</h4>
+                <h4 class="slash">/</h4>
+                <h4 class="products-nav-item">PRODUCTS</h4>
+            </div>
+        </div>
+    </main>
+    <main class="products-container">
+        <div class="products-selector">
+            <img class="products-selector-img" src="./images/liquorbottles.png" onclick="location.href='./products-liquor.html'">
+            <button class="products-selector-button cursor" onclick="location.href='./products-liquor.html'">Liquor</i></button>
+        </div>
+        <div class="products-selector">
+            <img class="products-selector-img" src="./images/wine-bottles.png" onclick="location.href='./products-wine.html'">
+            <button class="products-selector-button cursor" onclick="location.href='./products-wine.html'">Wine</button>
+        </div>
+    </main>
+
+    <footer class="footer-background">
+        <div class="footer-container">
+            <div class="footer-newsletter">
+                <div class="footer-title">
+                    <p class="footer-font-title">Subscribe to our Newsletter! <i class="far fa-newspaper"></i></p>
+                </div>
+                <form class="subscribe-form">
+                    <p class="email-form footer-font">Email Address</p>
+                    <input class="email-input" type="text">
+                </form>
+            </div>
+            <div class="footer-hours">
+                <div class="footer-store-hours">
+                    <div class="footer-title">
+                        <p class="footer-font-title">In-store Hours</p>
+                    </div>
+                    <div class="footer-hours-body">
+                        <p class="daily footer-font">Daily</p>
+                        <p class="footer-font">11 AM - 11 PM</p>
+                    </div>
+                </div>
+                <div class="footer-delivery-hours">
+                    <div class="footer-title">
+                        <p class="footer-font-title footer-font">Delivery Hours</p>
+                    </div>
+                    <div class="footer-hours-body">
+                        <p class="daily footer-font">Daily</p>
+                        <p class="footer-font">12 PM - 8 PM</p>
+                    </div>
+                </div>        
+            </div>
+            <div class="footer-contact">
+                <div class="footer-title">
+                    <p class="footer-font-title footer-font">Contact Us</p>   
+                </div>
+                <div class="footer-contact-body">
+                    <p class="footer-phone footer-font"><i class="fas fa-phone-square-alt"></i> 1 250 123 1234</p>
+                    <p class="footer-email footer-font"><i class="fas fa-envelope-square"></i> contact@worldwide.com</p>
+                </div>
+            </div>
+            <div class="footer-icons">
+                <div class="footer-social-media">
+                    <i class="fab fa-facebook-square icons"></i>
+                    <i class="fab fa-instagram icons"></i>
+                    <i class="fab fa-twitter-square icons"></i>
+                </div>
+                <div class="footer-map">
+                    <img class="footer-map-image" src="./images/location.png">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <footer class="footer-bottom">
+            <p class="footer-home" onclick="location.href='./main.html'">Home</p>
+            <p class="footer-products" onclick="location.href='./products.html'">Products</p>
+            <p class="footer-aboutus" onclick="location.href='./aboutus.html'">About Us</p>
+            <p id="copyright">Copyright© 2019 WORLDWIDE</p>
+        </footer>
+</body>
+</html>

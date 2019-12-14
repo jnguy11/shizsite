@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WORLDWIDE - Products</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="benvenoCF-font" href="BonvenoCF-Light.otf">
+    <link rel="Vollkorn-Regular.ttf" href="Vollkorn-Regular.ttf">
+    <link rel="Vollkorn-Italic.ttf" href="Vollkorn-Italic.ttf">
+    <script src="https://kit.fontawesome.com/5cac1d47f7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header class="header-container">
+        <div class="header-content">
+            <img class ="worldwide-logo cursor" onclick="location.href='./main.html'" src="./images/logocrop.png" alt="worldwide">
+        </div>
+    </header>
+    <nav class="nav-bar">
+        <button class="nav-item cursor" onclick="location.href='./main.html'">Home</button>
+        <button class="nav-item cursor" onclick="location.href='./products.html'">Products</button>
+        <button class="nav-item cursor" onclick="location.href='./aboutus.html'">About Us</button>
+        <button class="nav-item cursor" onclick="location.href='./cart.html'"><i class="fas fa-shopping-cart"></i> Cart</button>
+    </nav>
+
+    <main class="product-detail-container">
+        <div class="product-detail-inner-container">
+            <div class="product-detail-img-container">
+                <img class="product-detail-img" src="./images/rose.png">
+            </div>
+            <div class="product-details-container">
+                <div class="product-details-header">
+                    <h1 class="product-details-name">Krogs CAREY Rose</h1>
+                    <div class="details-div first-type">
+                        <h4 class="product-details-type">TYPE: </h4>
+                        <h4 class="product-details-type-desc">Rose</h4>
+                    </div>
+                    <div class="details-div">
+                        <h4 class="product-details-type">YEAR: </h4>
+                        <h4 class="product-details-type-desc">2016</h4>
+                    </div>
+                    <div class="details-div">
+                        <h4 class="product-details-type">ALCOHOL: </h4>
+                        <h4 class="product-details-type-desc">11.5%</h4>
+                    </div>
+                    <div class="details-div">
+                        <h4 class="product-details-type">SIZE: </h4>
+                        <h4 class="product-details-type-desc">750mL</h4>
+                    </div>
+                </div>
+                <p class="product-description">"A nose of smoke, currants, cranberries, raspberries, rose petal, tobacco leaf, and cinnamon is followed by an expansive, terrifically concentrated wine with a sumptuous texture, no hard edges, beautifully integrated acidity and tannin, and an oaky finish."</p>
+                <div class="product-details-checkout">
+                    <h3 class="product-stock">Stock: 12</h3>
+                    <form class="product-form-detail">
+                        <input class="quantity-selector" type="text" name="name" value="1">
+                        <div class="quantity-buttons">
+                            <button class="quantity-button plus" type="button" name="button"><i class="fas fa-caret-up"></i></button>
+                            <button class="quantity-button minus" type="button" name="button"><i class="fas fa-caret-down"></i></button>                                
+                        </div>
+                        <button class="cart-button" type="button" onclick=""><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                    </form>  
+                </div>          
+            </div>
+        </div>
+    </main>
+    <footer class="footer-background">
+        <div class="footer-container">
+            <div class="footer-newsletter">
+                <div class="footer-title">
+                    <p class="footer-font-title">Subscribe to our Newsletter! <i class="far fa-newspaper"></i></p>
+                </div>
+                <form class="subscribe-form">
+                    <p class="email-form footer-font">Email Address</p>
+                    <input class="email-input" type="text">
+                </form>
+            </div>
+            <div class="footer-hours">
+                <div class="footer-store-hours">
+                    <div class="footer-title">
+                        <p class="footer-font-title">In-store Hours</p>
+                    </div>
+                    <div class="footer-hours-body">
+                        <p class="daily footer-font">Daily</p>
+                        <p class="footer-font">11 AM - 11 PM</p>
+                    </div>
+                </div>
+                <div class="footer-delivery-hours">
+                    <div class="footer-title">
+                        <p class="footer-font-title footer-font">Delivery Hours</p>
+                    </div>
+                    <div class="footer-hours-body">
+                        <p class="daily footer-font">Daily</p>
+                        <p class="footer-font">12 PM - 8 PM</p>
+                    </div>
+                </div>        
+            </div>
+            <div class="footer-contact">
+                <div class="footer-title">
+                    <p class="footer-font-title footer-font">Contact Us</p>   
+                </div>
+                <div class="footer-contact-body">
+                    <p class="footer-phone footer-font"><i class="fas fa-phone-square-alt"></i> 1 250 123 1234</p>
+                    <p class="footer-email footer-font"><i class="fas fa-envelope-square"></i> contact@worldwide.com</p>
+                </div>
+            </div>
+            <div class="footer-icons">
+                <div class="footer-social-media">
+                    <i class="fab fa-facebook-square icons"></i>
+                    <i class="fab fa-instagram icons"></i>
+                    <i class="fab fa-twitter-square icons"></i>
+                </div>
+                <div class="footer-map">
+                    <img class="footer-map-image" src="./images/location.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer-bottom">
+            <p class="footer-home" onclick="location.href='./main.html'">Home</p>
+            <p class="footer-products" onclick="location.href='./products.html'">Products</p>
+            <p class="footer-aboutus" onclick="location.href='./aboutus.html'">About Us</p>
+            <p id="copyright">Copyright© 2019 WORLDWIDE</p>
+        </footer>
+</body>
+</html>

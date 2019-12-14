@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WORLDWIDE - Products</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="benvenoCF-font" href="BonvenoCF-Light.otf">
+    <link rel="Vollkorn-Regular.ttf" href="Vollkorn-Regular.ttf">
+    <link rel="Vollkorn-Italic.ttf" href="Vollkorn-Italic.ttf">
+    <script src="https://kit.fontawesome.com/5cac1d47f7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header class="header-container">
+        <div class="header-content">
+            <img class ="worldwide-logo cursor" onclick="location.href='./main.html'" src="./images/logocrop.png" alt="worldwide">
+        </div>
+    </header>
+    <nav class="nav-bar">
+        <button class="nav-item cursor" onclick="location.href='./main.html'">Home</button>
+        <button class="nav-item cursor" onclick="location.href='./products.html'">Products</button>
+        <button class="nav-item cursor" onclick="location.href='./aboutus.html'">About Us</button>
+        <button class="nav-item nav-item-current cursor" onclick="location.href='./cart.html'"><i class="fas fa-shopping-cart"></i> Cart</button>
+    </nav>
+    <main class="cart-banner">
+        <img class="cart-banner-img" src="./images/shipping-cropped.jpg">
+        <h1 class="cart-banner-text">Checkout</h1>
+    </main>
+    <main class=checkout-main-container>
+        <div class="checkout-background-color">
+            <div class="checkout-form-main">
+                <div class="checkout-form-container">
+                    <div class="checkout-header-container-ship">
+                        <h1 class="checkout--header">1</h1>
+                        <h1 class="checkout-header">Shipping Address</h1>
+                    </div>
+                    <form class="checkout-form">
+                        <p class="checkout-required">** Required fields</p>
+                        <h2 class="checkout-ship">SHIP TO</h2>
+                        <div class="form-first">
+                            <div class="form-first-middle">
+                                <h2 class="checkout-titles">FIRST NAME **</h2>
+                                <input class="name-input height" type="text" >
+                            </div>
+                            <div class="form-first-right">
+                                <h2 class="checkout-titles">LAST NAME **</h2>
+                                <input class="name-input height" type="text" >
+                            </div>
+                        </div>
+                        <div class="form-address">
+                            <h2 class="checkout-titles">ADDRESS LINE 1 **</h2>
+                            <input class="address-input height" type="text">
+                        </div>
+                        <div class="form-address">
+                            <h2 class="checkout-titles">ADDRESS LINE 2</h2>
+                            <input class="address-input height" type="text">
+                        </div>
+                        <div class="form-location">
+                            <div class="form-second-left">
+                                <h2 class="checkout-titles">CITY **</h2>
+                                <input class="city-input height" type="text">  
+                            </div>
+                            <div class="form-second-middle">
+                                <h2 class="checkout-titles">PROVINCE **</h2>
+                                <form class="province-form">
+                                    <select class="province-input">
+                                        <option value=placeholder></option>
+                                        <option value="BRITISH COLUMBIA">BRITISH COLUMBIA</option>
+                                        <option value>ALBERTA</option>
+                                        <option value>MANITOBA</option>
+                                        <option value>NEW BRUNSWICK</option>
+                                        <option value>NOVA SCOTIA</option>
+                                        <option>ONTARIO</option>
+                                        <option>P.E.I.</option>
+                                    </select>
+                                </form>
+
+                            </div>
+                            <div class="form-second-middle">
+                                <h2 class="checkout-titles">POSTAL CODE **</h2>
+                                <input class="postal-input height" type="text">  
+                            </div>
+                        </div>  
+                        <div class="form-phone-top">
+                            <div class="checkout-titles-number">
+                                <h2 class="checkout-titles">PRIMARY PHONE NUMBER **</h2>
+                                <input class="form-number-number height" type="text">
+                            </div>
+                            <div class="form-number">
+                                <h2 class="checkout-titles">SECONDARY PHONE NUMBER</h2>
+                                <input class="form-number-number height" type="text">
+                            </div>
+                        </div>  
+                    </form>
+                    <div class="checkout-header-container-payment">
+                        <h1 class="checkout--header">2</h1>
+                        <h1 class="checkout-header">Payment</h1>
+                    </div>
+                    <form class="checkout-form">
+                        <p class="checkout-required">** Required fields</p>
+                        <div class="form-address">
+                            <h2 class="checkout-titles">NAME ON CARD **</h2>
+                            <input class="nameon-input height" type="text">
+                        </div>
+                        <div class="form-first">
+                            <div class="form-first-middle">
+                                <h2 class="checkout-titles">CREDIT CARD NUMBER **</h2>
+                                <input class="credit-input height" type="text" >
+                            </div>
+                            <div class="form-first-left">
+                                <h2 class="checkout-titles">SECURITY CODE **</h2>
+                                <input class="security-input height" type="text" maxlength="4" placeholder="3 - 4 Digits" >
+                            </div>
+                        </div>
+                        <div class="form-first on-bottom">
+                            <div class="form-first-right">
+                                <h2 class="checkout-titles">EXPIRATION DATE **</h2>
+                                <div class="expiration-container">
+                                    <input class="expiration-input height" type="text" maxlength="2" placeholder="MM" >
+                                    <input class="expiration-input height" type="text" maxlength="4" placeholder="YYYY">
+                                </div>
+                            </div>
+                        </div>
+                    </form>                  
+                </div>
+                <div class="cart-total-checkout">
+                    <div class="cart-summary">
+                        <div class="cart-summary-head">
+                            <h2 class="order-summary">Order Summary ( 3 Items )</h4>  
+                        </div>
+                        <div class="cart-summary-leftright">
+                            <div class="cart-summary-price">
+                                <div class="cart-summary-left">
+                                    <h2 class="cart-total-amount left">Subtotal</h2>
+                                    <h2 class="cart-shipping left">Discount</h2>
+                                    <h2 class="cart-tax left">Tax</h2>
+                                    <h2 class="cart-grand-total left">Grand Total</h2>
+                                </div>
+                                <div class="cart-summary-right">
+                                    <h2 id="right" class="cart-total-amount">$ 4000</h2>
+                                    <h2 id="right" class="cart-shipping">- $ 400</h2>
+                                    <h2 id="right" class="cart-tax">$ --</h2>
+                                    <h2 id="right-big" class="cart-grand-total-right">$ 3600</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="promo-box">
+                            <h2 class="promo">Promo Code</h2>
+                            <input class="promo-code" type="text" maxlength="6" placeholder="PROMO CODE">
+                            <p class="promo-details">Max. one code per order.</p>
+                        </div>
+                        <div class="summary--checkout">
+                            <form class="terms-container">
+                                <input class="checkbox" type="checkbox"> 
+                                <p class="terms">I accept WORLDWIDE's Terms and Conditions.</p>
+                            </form>
+                            <button class="to--checkout">PLACE ORDER         <img class="logo-crop" src="./images/logo-crop2.png"></button>  
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </main>
+    <footer class="footer-background">
+        <div class="footer-container">
+            <div class="footer-newsletter">
+                <div class="footer-title">
+                    <p class="footer-font-title">Subscribe to our Newsletter! <i class="far fa-newspaper"></i></p>
+                </div>
+                <form class="subscribe-form">
+                    <p class="email-form footer-font">Email Address</p>
+                    <input class="email-input" type="text">
+                </form>
+            </div>
+            <div class="footer-hours">
+                <div class="footer-store-hours">
+                    <div class="footer-title">
+                        <p class="footer-font-title">In-store Hours</p>
+                    </div>
+                    <div class="footer-hours-body">
+                        <p class="daily footer-font">Daily</p>
+                        <p class="footer-font">11 AM - 11 PM</p>
+                    </div>
+                </div>
+                <div class="footer-delivery-hours">
+                    <div class="footer-title">
+                        <p class="footer-font-title footer-font">Delivery Hours</p>
+                    </div>
+                    <div class="footer-hours-body">
+                        <p class="daily footer-font">Daily</p>
+                        <p class="footer-font">12 PM - 8 PM</p>
+                    </div>
+                </div>        
+            </div>
+            <div class="footer-contact">
+                <div class="footer-title">
+                    <p class="footer-font-title footer-font">Contact Us</p>   
+                </div>
+                <div class="footer-contact-body">
+                    <p class="footer-phone footer-font"><i class="fas fa-phone-square-alt"></i> 1 250 123 1234</p>
+                    <p class="footer-email footer-font"><i class="fas fa-envelope-square"></i> contact@worldwide.com</p>
+                </div>
+            </div>
+            <div class="footer-icons">
+                <div class="footer-social-media">
+                    <i class="fab fa-facebook-square icons"></i>
+                    <i class="fab fa-instagram icons"></i>
+                    <i class="fab fa-twitter-square icons"></i>
+                </div>
+                <div class="footer-map">
+                    <img class="footer-map-image" src="./images/location.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer-bottom">
+            <p class="footer-home" onclick="location.href='./main.html'">Home</p>
+            <p class="footer-products" onclick="location.href='./products.html'">Products</p>
+            <p class="footer-aboutus" onclick="location.href='./aboutus.html'">About Us</p>
+            <p id="copyright">Copyright© 2019 WORLDWIDE</p>
+        </footer>
+</body>
+</html>
